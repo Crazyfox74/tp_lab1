@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Image map</title>
+</head>
+<body>
+	<h1><p align="center">Канцелярия для Вас и Ваших детей</p></h1>
+	<div>
+		<p align="center"><img src="img\img2_1.jpg" width="750" height="750" alt="Канцелярия"></p>
+	</div>
+	<h2><p align="center">Детские принадлежности</p></h2>
+	<p align="center"><i>
+		В нашем интернет-магазине вы сможете найти большой выбор детских принадлежностей. Большой выбор аварели,
+		кисточек для рисования и стаканчиков.
+		 </i></p>
+	<div>
+		<p align="center"><img src="img\img2_2.jpg" usemap="#cololr" width="750" height="500" alt="Принадлежности"></p>
+		<map name="cololr">
+			<area shape="rect" coords="50,100,300,300" href="#colors" alt="Краски">
+			<area shape="poly" coords="500,150,500,400,620,400,620,150" href="#brush" alt="Краски">
+			<area shape="circle" coords="550,80,30" href="#water" alt="Краски">
+		</map>
+	</div>
+	<h2><p align="left"><img src="img\colors.png" width="35" height="35" alt="Краски" id="colors">Набор красок</p></h2>
+	<table border="1" width="100%" >
+	  <tr>
+		<th>1шт.</th>
+		<th>3шт.</th>
+		<th>5шт.</th>
+		<th>7шт.</th>
+		<th>10шт.</th>
+	  </tr>
+	  <tr>
+		<th>2р.</th>
+		<th>5р.</th>
+		<th>10р.</th>
+		<th>13р.</th>
+		<th>18р.</th>
+	  </tr>
+	</table>
+	<h2><p><object type="image/png"  data="img\brush.png"  width="35" height="35" ></object>Набор кисточек</p></h2>
+	<table border="1" width="100%" id="brush">
+	  <tr>
+		<th>1шт.</th>
+		<th>3шт.</th>
+		<th>5шт.</th>
+		<th>7шт.</th>
+		<th>10шт.</th>
+	  </tr>
+	  <tr>
+		<th>1р.</th>
+		<th>3р.</th>
+		<th>4р.</th>
+		<th>6р.</th>
+		<th>9р.</th>
+	  </tr>
+	</table>
+	<h2><p><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="60" height="60">
+    <rect x="5" y="5" width="50" height="20" 
+          stroke="#000000" stroke-width="3" fill="#fffaf0" />
+	<rect x="5" y="20" width="50" height="37" 
+          stroke="#000000" stroke-width="3" fill="#00ffff" />	  
+	</svg>Набор стаканчиков</p></h2>
+	<table border="1" width="100%" id="water">
+	  <tr>
+		<th>1шт.</th>
+		<th>3шт.</th>
+		<th>5шт.</th>
+		<th>7шт.</th>
+		<th>10шт.</th>
+	  </tr>
+	  <tr>
+		<th>3р.</th>
+		<th>8р.</th>
+		<th>14р.</th>
+		<th>20р.</th>
+		<th>27р.</th>
+	  </tr>
+	</table>	
+</body>
+</html>
